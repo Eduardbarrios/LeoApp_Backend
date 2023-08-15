@@ -1,0 +1,37 @@
+{
+	"name": "leoapp_backend",
+	"version": "1.0.0",
+	"description": "Backend for LeoProject",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Eduardbarrios/LeoApp_Backend.git"
+	},
+	"keywords": [
+		"backend",
+		"nodeJs",
+		"api"
+	],
+	"author": "@eduard09 <eduardbarrios0903@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Eduardbarrios/LeoApp_Backend/issues"
+	},
+	"homepage": "https://github.com/Eduardbarrios/LeoApp_Backend#readme",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"firebase-admin": "^11.10.1",
+		"mysql2": "^3.6.0",
+		"node-cron": "^3.0.2",
+		"pg": "^8.11.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}

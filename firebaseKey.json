@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "leoapp-auth",
+  "private_key_id": "1630beca5e792e20cdf7bd195ad473df1c6d50d4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmWR3y0+NUgcxx\nBmCXY3faW6ZUMAg0NtdAP/IUgeWG3LAe4bmXJRhjLo/Gu3HNz89SpLhVvL7+8mr8\niJlrRvmnx+v/IadR2arMPvr+gRZUcZmZrmX5lxv1//xgC+EOsu9nDP3f9bv7cGD4\ngm6NGYA3l8dkPt4xKPEh77wJGps/4kI7AxubEFDugkcIhKcgtvL8pXJRomACpmi3\nPrdUx2D5B+U1L4/mmqzYzGJHyxTP3+OxwZlWwYS/mibwJ9zc4s0dAs9ORU0rCLYV\nhfKJz54vidL+TXhQw6Nqc3LgWetpXmyrtYWzQfqSGgGIYmhKv93k7P5IlmshSCLM\n5QeD170tAgMBAAECggEAJuHEsMobJFkUhsSlVi1vSdBLT/lMKZw58vAfbvCvzDaQ\nSh+byDro+OHcxGhy4Nb2kEwlNBEimafjHvT021DjMPb3cBKXL/gPRp9f/pYAuKs2\n6meLuWu7IuR7Qp30NIHZmH4+ZxdioZJycBPYsE1qHVRyTDmvqND3j+Wfz4bzC9q/\nNi2xr4X3zqBSTm6b+irhqMtvrJAPR3HponVL9ETj3Db8qqaArONpIV1ROaYAY20l\nXPISPXY8vIm0simNI54+QOl2jcwVFMmhW05dZ8Ts+ibNh9IyWjYGNhiRVyPV9wMx\nXKsrSlw27iGh7Xr3a3LDQ/5/Az+RlfOv44FNnkZP1wKBgQDq16GitCgvtCdi3mDJ\nwPMk4BkoHamdzNz0f/LdIgKj8G3bWczcSLuGhshyluPGz5qTDPpOHNTxp615tYzI\nUqwQ7ONNfjEnBprMO0xD9di1u64LJ3FKGQ3XRUTcLx8mKosp74et/bNrXre45T4S\nOcFsOAkdHPaUif+tP41fiF3UHwKBgQC1Vb7X7htjRX/q3J+s/0GoB9twA3Y1Y0xh\nonZEtcIjN10q7WgLQVqGPdp7Kx8jZT41KNhA1LngP1CzjFbS+gJt4/jYSKTTQyAb\n9J4xD8bdo4QVEiZaYVD3zYg9gZbvNhlaJpDk7YIJkTYdCMSt7iFI3F0y66iU0BlC\nYrt/tsIlMwKBgQDUB9pND4HVCEAjWQpkPkyJN7ge6yEwcz3vlvIMy988ayCU0nBP\nV2/QlzK1mxyObPRv3mDEU+3DPZQ39j3kxBfMtETJu6zfQmxTBxrlpTuDYa9TLMpx\nj0ta2JTCg90I1ZKOS1DiO9RZlcwlKP0w8Wp8rd80pOjQ1gO9RUr8PSASGwKBgD9X\nxYOONFj4FRgIm2qF+/xjSj8Vpnw9xJeydZfI2hkNJOly5s5PtPyBrMkrpgPqQNG3\nA9uZs5hm5ZzioA2wsZqLcQi0T4dQwm2hhITk2vXfQatOnMEjj3IQhM/fbcb/4dlA\n8YpWgP8wj3OS9YlATrYx7Ah2k3vwOXKcJJ0XTThLAoGAUnKCnK4Sd4WeWjaeRSld\nEqm8f8cOCxtKv2oHZJOq1++hVQuyMb8/VQBnh2R6zM+e8XqV7OH9W9rMAUDoEa5M\naULdUK2FILLs0TbRgssPxRJgpkChEcxneR9pWfJBfpLvk2uvkrLqNQAtFAeOM4Wl\nTGdS2Y7dkS5unjMRhEJ3J3E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1bng5@leoapp-auth.iam.gserviceaccount.com",
+  "client_id": "116468756770155190480",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1bng5%40leoapp-auth.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
