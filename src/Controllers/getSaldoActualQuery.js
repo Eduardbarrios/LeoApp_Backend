@@ -7,7 +7,7 @@ const query = `
     u.primer_nombre,
     u.primer_apellido,
     IFNULL((
-      (SELECT IFNULL(SUM(monto_inversion), 0) + IFNULL(u.monto_inicial_inversion, 0) FROM inversiones WHERE usuario_id = u.id)
+      (SELECT IFNULL(SUM(monto_inversion), 0) FROM inversiones WHERE usuario_id = u.id)
       - (SELECT IFNULL(SUM(monto_retiro), 0) FROM retiros WHERE usuario_id = u.id)
     ), 0) AS saldo_actual
   FROM usuarios u`;
@@ -18,7 +18,6 @@ const consultarSaldoUsuarios = async () => {
 		query,
 		"consultarSaldoUsuarios"
 	);
-	console.log(result);
 	return result;
 };
 module.exports = {
