@@ -1,13 +1,27 @@
 const express = require("express");
 const router = express.Router();
-const getUsersQuery = require("../Controllers/getUsersQuery");
 const getUserDetails = require("../Controllers/getUserDetails");
 const { scheduleTask } = require("../utils/cronScript");
+const { createUserWithDetails } = require("../firebase/createUser");
+const { createNewUser } = require("../Controllers/createUserDB");
 
-// Define a route for getting all users
-router.get("/usuarios", getUsersQuery.getAllUsersList);
-//Define a route for getting dingle user Detail
-router.get("/user/:id", getUserDetails.getUserDetails);
+//Define a route for getting single user Detail
+router.get("/user/:UID", getUserDetails.getUserDetails);
+
+//router to create a new user
+router.post("/create-user", async (req, res) => {
+	// Los detalles del usuario deben enviarse en el cuerpo de la solicitud POST
+	const userDetails = req.body;
+	try {
+		const uid = await createUserWithDetails(userDetails);
+		res.status(201).json({ uid }); // Devuelve el ID del usuario creado
+		await createNewUser(userDetails, uid);
+	} catch (error) {
+		res.status(500).json({
+			error: error.message,
+		}); // Devuelve un mensaje de error en caso de falla
+	}
+});
 
 //iniciar tarea de cron con post
 router.post("/iniciar-tarea", (req, res) => {
