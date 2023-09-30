@@ -28,5 +28,10 @@ router.post("/iniciar-tarea", (req, res) => {
 	scheduleTask.start();
 	res.json({ message: "Tarea programada iniciada manualmente" });
 });
+//detener tarea de cron con post
+router.post("/detener-tarea", (req, res) => {
+	scheduleTask.stop();
+	res.json({ message: "Tarea programada detenida manualmente" });
+});
 
 module.exports = router;
