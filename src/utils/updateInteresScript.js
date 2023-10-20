@@ -13,7 +13,8 @@ const updateIntereses = async () => {
 	const currentInteres = await consultarInteresesActuales();
 	const newIntereses = saldos.map((saldo, index) => [
 		saldo.usuario_id,
-		saldo.saldo_actual * (1 / 300) + currentInteres[index]?.interes_total,
+		saldo.saldo_actual * (1 / 300) +
+			(currentInteres[index]?.interes_total || 0),
 	]);
 	await actualizarInteresesMasivo(newIntereses);
 };

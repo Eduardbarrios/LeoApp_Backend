@@ -1,7 +1,7 @@
 const { executeGetQuery } = require("../utils/QuerysGenericModule");
 const query = `
       SELECT
-        usuario_id, interes_total 
+						usuario_id, interes_total
       FROM intereses`;
 const consultarInteresesActuales = async () => {
 	const result = await executeGetQuery(
