@@ -34,4 +34,10 @@ router.post("/detener-tarea", (req, res) => {
 	res.json({ message: "Tarea programada detenida manualmente" });
 });
 
+//testing conection
+router.get("/test", async (req, res) => {
+	console.log("you are connected to the backend");
+	res.json({ message: "you are connected to the backend" });
+});
+
 module.exports = router;
